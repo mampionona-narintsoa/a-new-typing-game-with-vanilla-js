@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typing Test</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <title>Typing Test</title>
 </head>
+<body class="bg-gray-900 text-white font-mono">
 
-<body>
-    <header>
-        <h1>Typing Test</h1>
-        <label for="mode">Select Mode:</label>
-        <select id="mode">
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
-        </select>
-    </header>
+  <header class="text-center my-6">
+    <h1 class="text-[6rem] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 drop-shadow-lg">
+      Typing Test
+    </h1>
+    <label for="mode">Select Mode:</label>
+    <select id="mode" class="text-black p-1 rounded">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+  </header>
 
-    <main>
-        <p id="word-display"></p>
-        <input type="text" id="input-field" autofocus>
-        <p id="results">Results : </p>
-    </main>
+  <main class="flex flex-col items-center gap-4">
+    <p id="word-display" class="text-xl text-center max-w-3xl"></p>
+    <input type="text" id="input-field" class="text-black p-2 rounded w-full max-w-md" autofocus />
+    
+    <p id="results">Results :</p>
+    <div id="score">Score: 0</div>
 
-    <script src="script.js"></script>
+    
+    
+    <div id="timer" class="text-xl font-bold text-white bg-gray-800 p-2 rounded w-fit">
+      Temps restant : <span id="time-left">60</span>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
 </body>
-
 </html>

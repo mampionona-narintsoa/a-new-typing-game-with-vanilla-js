@@ -1,12 +1,62 @@
 # Vanilla Typing 
 
-## Introduction
-Hi ! This is a simple typing game using HTML, CSS, and Vanilla Javascript (which means no React, no NextJS). You can use it as your own, just make sure you enrich it with new features, and a sexy design. 
+# 🧠 Typing Test Game - Examen WEB1
+# Presentation :
+Ce projet est un jeu de test de frappe, réalisé dans le cadre de l'examen final de WEB1. L'objectif du jeu est de taper des phrases le plus rapidement et le plus précisément possible dans un temps limité.
 
-## Constraints
-Since this is an HTML project, you can use your favorite CSS framework of choice : Tailwind, Bootstrap, or any icon library. Just... don't force it to be a React or a Svelte or a Vue project. Just keep on building on top of it. 
-- Deadline : 19th of April 2025, 23h59 at most ;
-- How : invite me to collaborate on your repo ;
-- Added bonus if you know how to use Git well.
+**Fonctionnalite principales
+- ⏱️ Chronomètre de 2 minutes
+- 🎯 Trois niveaux de difficulté : facile, moyen et difficile
+- 🧮 Calcul du WPM (mots par minute)
+- 📊 Accuracy : pourcentage de caractères corrects par rapport au total tapé
 
-And most important of all, have fun 🔥
+>** Dans ce jeu, **1 mots = 5 caracteres*.
+
+---
+
+**Technologie utiliser
+
+- HTML
+- CSS3 (avec Tailwind CSS)
+- JavaScript (Vanilla JS)
+
+---
+
+**Comment lancer le jeu ?
+
+1. Cloner le dépôt GitHub avec la commande :
+```bash
+git clone https://github.com/mampionona-narintsoa/a-new-typing-game-with-vanilla-js.git
+```
+2. Accéder au dossier cloné :
+```bash
+cd a-new-typing-game-with-vanilla-js
+```
+3. Ouvrir le fichier `index.html` dans un navigateur web
+4. Commencer à jouer 
+
+---
+
+** Membre de binomes
+
+- STD24055 - 
+-  STD24058
+
+---
+
+**Lien du depots GITHUB
+
+🔗 [https://github.com/mampionona-narintsoa/a-new-typing-game-with-vanilla-js.git]
+
+---
+*Details techniques supplementaires
+
+- Le jeu utilise un système de phrases plutôt que de mots isolés pour un challenge plus réaliste.
+- L'accuracy est calculée en fonction des caractères correctement tapés.
+- Le WPM (word per minute) est basé sur la règle : **1 mot = 5 caractères**.
+
+----
+Merci pour votre attention et bonne correction ! 🎉
+
+
+
