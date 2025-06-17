@@ -1,10 +1,4 @@
-/**
- * Point culture (en Français car je suis un peu obligé): 
- * Dans ce genre de jeu, un mot equivaut a 5 caractères, y compris les espaces. 
- * La precision, c'est le pourcentage de caractères tapées correctement sur toutes les caractères tapées.
- * 
- * Sur ce... Amusez-vous bien ! 
- */
+
 let startTime = null, previousEndTime = null;
 let currentWordIndex = 0;
 const wordsToType = [];
@@ -94,13 +88,11 @@ const highlightNextWord = () => {
     }
 };
 
-// Event listeners
-// Attach `updateWord` to `keydown` instead of `input`
+
 inputField.addEventListener("keydown", (event) => {
     startTimer();
     updateWord(event);
 });
 modeSelect.addEventListener("change", () => startTest());
 
-// Start the test
 startTest();
